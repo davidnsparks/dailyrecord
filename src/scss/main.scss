@@ -1,0 +1,217 @@
+body {
+	background-color:rgb(218, 223, 225) !important; 
+}
+
+#menu {
+
+    margin: 0;
+    padding: 10px 0 0;
+    list-style: none;
+    background-color: #606060;
+    border-radius: 50px;
+    box-shadow: 0 2px 1px #9c9c9c;
+
+    li {
+    	float: left;
+    	padding: 0 0 10px;
+    	position: relative;
+    }
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.offBlue {
+	border-color:rgb(76, 110, 137);
+	background:rgb(76, 110, 137);
+}
+
+.recordSearch {
+	margin-top:25px;
+	width:100%;
+}
+
+div.bg-secondary, button.btn-newback{
+	background-color:#313131 !important;
+}
+
+div.marginTopBottom {
+	margin-top: -10px;
+    margin-bottom: -6px;
+
+}
+
+div.buttons{
+	margin-top:2px;
+	a{
+		margin-bottom:4px;
+	    margin-left: -27px;
+	    color:#fff !important;
+	}
+}
+
+form#searchForm {
+	div.row {
+		margin-bottom:15px;
+	}
+}
+
+.navArrows {
+	margin-top:18px;
+	img {
+	        display: block;
+ 		    width: 30px;
+    		margin-top: -5px;
+   
+	}
+}
+.navArrows2 {
+	margin-top:6px;
+	img {
+	        display: block;
+ 		    width: 30px;
+    		margin-top: -5px;
+   
+	}
+}
+
+.labelOnCenter {
+	label {
+		margin-top:0px;
+	}
+}
+
+.col-sm-2.buttons {
+    padding-top: 100px;
+}
+
+
+select.form-control:not([size]):not([multiple]), input[type="text"].form-control, input[type="date"].form-control, input[type="number"].form-control  {
+    height: calc(1.25rem + 2px);
+    padding:0 10px;
+}
+
+
+
+.tightLabel{
+		label {
+			margin-bottom: -10px;
+
+				}
+				margin-bottom:10px;
+	} 
+
+select, input, label {
+	font-size:.8em !important;
+}
+
+#moveButtonUp{
+	margin-top:10px;
+}
+
+.btn-primary, .btn-warning, .btn-success {
+	background-color: #606060 !important;
+	border-color: #606060 !important;
+	color:#fff;
+}
+
+.card-body{
+	padding:9px !important;
+}
+
+#card15{
+	margin-top:-15px;
+}
+
+#margin8 {
+	margin-top:-8px;
+}
+
+.row11{
+	height: 11px;
+}
+.row40 {
+	height:40px;
+	margin-bottom:-5px
+}
+
+.marginLeft30{
+	margin-left: -30px;
+}
+
+.row.testHeight .form-group {
+    height: 28px !important;
+}
+
+.margin5{
+	margin-top:-5px;
+}
+.margin10{
+    margin-top: -10px;
+}
+.margin20 {
+	margin-top:-20px;
+}
+.margin21 {
+	margin-top: -21px;
+}
+.margin30 {
+	margin-top:-30px;
+}
+
+.push5{
+	margin-top:5px;
+}
+
+.push31{
+    margin-top: 31px;
+}
+
+.height36{
+	height:36px !important;
+}
+
+.floatLabel label{
+	float:right;
+}
+
+.left18 label {
+	    margin-left: 18px;
+}
+
+.left24 label{
+	    margin-left: 24px;
+}
+
+.left35 label {
+	    margin-left: 35px;
+}
+
+.col-sm-4 .form-group {
+    margin-bottom: 0px;
+}
+#menu li:hover>ul li, #menu li:hover>ul li a {
+        height: 30px;
+}
+#menu{margin:0;padding:10px 0 0;list-style:none;background-color:#606060;border-radius:50px;box-shadow:0 2px 1px #9c9c9c}
+#menu li{float:left;padding:0 0 10px;position:relative}
+#menu a{float:left;height:25px;padding:0 25px;color:#fff;text-transform:uppercase;font:bold 12px/25px Arial,Helvetica;text-decoration:none;text-shadow:0 1px 0 #000}
+#menu li:hover>a{color:#fafafa}
+*html #menu li a:hover{color:#fafafa}
+#menu li:hover>ul{display:block}
+#menu ul{list-style:none;margin:0;padding:0;display:none;position:absolute;top:35px;left:0;z-index:99999;background-color:#999;-moz-border-radius:5px;border-radius:5px}
+#menu ul li{float:none;margin:0;padding:0;display:block;box-shadow:0 1px 0 #606060,0 2px 0 #777}
+#menu ul li:last-child{box-shadow:none}
+#menu ul a{padding:10px;height:auto;line-height:1;display:block;white-space:nowrap;float:none;text-transform:none}
+*html #menu ul a{height:10px;width:150px}
+*:first-child+html #menu ul a{height:10px;width:150px}
+#menu ul a:hover{background-color:#701913}
+#menu ul li:first-child a{border-radius:5px 5px 0 0}
+#menu ul li:first-child a:after{content:'';position:absolute;left:30px;top:-8px;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:8px solid #444}
+#menu ul li:first-child a:hover:after{border-bottom-color:#701913}
+#menu ul li:last-child a{border-radius:0 0 5px 5px}
+#menu:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}* html #menu{zoom:1}
+*:first-child+html #menu{zoom:1}
+.searchbutton{-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;box-shadow:inset 0px 1px 0px 0px #bbdaf7;background:-webkit-gradient(linear,left top,left bottom,color-stop(.05,#79bbff),color-stop(1,#378de5));background:-moz-linear-gradient(center top,#79bbff 5%,#378de5 100%);}
